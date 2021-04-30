@@ -7,7 +7,8 @@ module.exports = class Source extends Command {
             aliases: ["source"],
             channel: "guild",
             category: "Utils",
-            description: "Link to the source of Aichan."
+            description: "Link to the source of Aichan.",
+            clientPermissions: ["SEND_MESSAGES"]
         });
     };
 

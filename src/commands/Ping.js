@@ -3,7 +3,11 @@ const { Command } = require('discord-akairo');
 module.exports = class Ping extends Command {
     constructor() {
         super('ping', {
-            aliases: ["ping"]
+            aliases: ["ping"],
+            description: "Check the message ping of Aichan",
+            channel: "guild",
+            category: "Utils",
+            clientPermissions: ["SEND_MESSAGES"]
         });
     };
 

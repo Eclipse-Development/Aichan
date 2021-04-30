@@ -10,7 +10,8 @@ module.exports = class Aichan extends AkairoClient {
         super({
             ownerID: developers
         }, {
-            disableMentions: 'everyone'
+            disableMentions: "everyone",
+            messageCacheMaxSize: 0
         });
 
         this.commandHandler = new CommandHandler(this, {
@@ -26,6 +27,8 @@ module.exports = class Aichan extends AkairoClient {
         this.listenerHandler = new ListenerHandler(this, {
             directory: './src/listeners/'
         });
+
+        this.config = require("../modules/config.json");
     };
 
     async start() {

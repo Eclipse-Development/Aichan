@@ -1,7 +1,7 @@
 const { Command } = require("discord-akairo");
 const { MessageEmbed } = require("discord.js");
 
-module.exports = class MemberCount extends Command {
+module.exports = class Avatar extends Command {
     constructor() {
         super("avatar", {
             description: "Get your or a user's avatar.",

@@ -2,7 +2,7 @@
     "token": "Nzk4MjkwNTIwNzk0ODU3NDgy.X_y3-w.tjOsXgGLHVuwjE0uXplgHQE3DFY",
     "prefix": ["ai!"],
     "developers": ["538627730921619486"],
-    "source": "https://github.com/Colderry/Aichan",
+    "source": "https://github.com/Eclipse-Development/Aichan",
     "invite": "https://discord.com/api/oauth2/authorize?client_id=798290520794857482&permissions=70635072&scope=bot",
     "mongoDB": "mongodb://localhost/Aichan"
 }
